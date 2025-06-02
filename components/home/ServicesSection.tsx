@@ -82,20 +82,20 @@ const ServiceCard = ({
 
 const serviceCards = [
   {
-    title: 'La Escuela de la Vida',
-    subtitle: 'Cursos en Línea',
+    title: 'Mente y Emociones',
+    subtitle: 'Psicología del trading y control emocional',
     imageSrc: '/images/mente.jpg',
     buttonLink: '/escuela',
   },
   {
-    title: 'Eventos presenciales',
-    subtitle: 'Retiros, monólogos y diálogos',
+    title: 'Estrategia y Análisis',
+    subtitle: 'Técnicas avanzadas y análisis de mercado',
     imageSrc: '/images/relaciones.jpg',
     buttonLink: '/eventos',
   },
   {
-    title: 'Conferencias',
-    subtitle: 'Pláticas a Empresas',
+    title: 'Entorno y Hábitos',
+    subtitle: 'Rutinas y disciplina para traders exitosos',
     imageSrc: '/images/trabajo.jpg',
     buttonLink: '/conferencias',
   },
@@ -122,7 +122,27 @@ const ServicesSection = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.7, delay: 0.2 }}
         >
-          A través de eventos, cursos en línea y mis conferencias a empresas
+          A través de eventos, cursos en línea y mis conferencias en vivo
+        </motion.p>
+
+        <motion.h3
+          className="text-2xl md:text-3xl font-bold mb-8 text-center text-tvam-blue"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.7, delay: 0.4 }}
+        >
+          Academia para Traders
+        </motion.h3>
+
+        <motion.p
+          className="text-center text-lg mb-12"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.7, delay: 0.6 }}
+        >
+          3 Áreas del desarrollo como Trader
         </motion.p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

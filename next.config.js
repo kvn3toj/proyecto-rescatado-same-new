@@ -1,13 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Configuración para GitHub Pages
-  output: 'export',
-  trailingSlash: true,
-  basePath: process.env.NODE_ENV === 'production' ? '/proyecto-rescatado-same-new' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/proyecto-rescatado-same-new' : '',
-  
+  // Configuración optimizada para Vercel
   images: {
-    unoptimized: true,
     remotePatterns: [
       {
         protocol: "https",
@@ -31,6 +25,8 @@ const nextConfig = {
       },
     ],
   },
+  // Configuración de compresión
+  compress: true,
 };
 
 module.exports = nextConfig;

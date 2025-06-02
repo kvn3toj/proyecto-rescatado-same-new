@@ -17,24 +17,24 @@ const Header = () => {
         {/* Logo */}
         <Link href="/" className="flex items-center">
           <div className="w-10 h-10 bg-tvam-blue rounded-full flex items-center justify-center mr-3">
-            <span className="text-white font-bold text-lg">💀</span>
+            <span className="text-white font-bold text-lg">🔥</span>
           </div>
-          <span className="text-white text-xl font-bold">Te Vas A Morir</span>
+          <span className="text-white text-xl font-bold">HUMBLE BEAST</span>
         </Link>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-8">
-          <Link href="/amorir-2025" className="text-white hover:text-tvam-blue transition-colors">
-            AMORir
+          <Link href="/academia" className="text-white hover:text-tvam-blue transition-colors">
+            Academia
           </Link>
           <Link href="/escuela" className="text-white hover:text-tvam-blue transition-colors">
-            Escuela
+            Mente & Emociones
           </Link>
           <Link href="/eventos" className="text-white hover:text-tvam-blue transition-colors">
-            Eventos
+            Estrategia & Análisis
           </Link>
           <Link href="/conferencias" className="text-white hover:text-tvam-blue transition-colors">
-            Conferencias
+            Entorno & Hábitos
           </Link>
         </nav>
 
@@ -64,32 +64,32 @@ const Header = () => {
           <div className="absolute top-full left-0 right-0 bg-tvam-black md:hidden">
             <nav className="flex flex-col space-y-4 p-4">
               <Link
-                href="/amorir-2025"
+                href="/academia"
                 className="text-white hover:text-tvam-blue transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
-                AMORir
+                Academia
               </Link>
               <Link
                 href="/escuela"
                 className="text-white hover:text-tvam-blue transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Escuela
+                Mente & Emociones
               </Link>
               <Link
                 href="/eventos"
                 className="text-white hover:text-tvam-blue transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Eventos
+                Estrategia & Análisis
               </Link>
               <Link
                 href="/conferencias"
                 className="text-white hover:text-tvam-blue transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Conferencias
+                Entorno & Hábitos
               </Link>
             </nav>
           </div>

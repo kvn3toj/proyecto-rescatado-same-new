@@ -21,7 +21,7 @@ const fadeUp = {
 const TeVasAMorirSection = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [currentWord, setCurrentWord] = useState(0);
-  const words = ['MORTAL', 'HUMANO', 'PASAJERO', 'TEMPORAL'];
+  const words = ['LISTO', 'PREPARADO', 'DECIDIDO', 'COMPROMETIDO'];
   const sectionRef = useRef(null);
   const isInView = useInView(sectionRef, { once: true, amount: 0.2 });
 
@@ -49,7 +49,7 @@ const TeVasAMorirSection = () => {
       }
     })
   };
-  const titleText = 'TE VAS A MORIR';
+  const titleText = 'HUMBLE BEAST';
   const titleChars = titleText.split('');
   return (
     <motion.section
@@ -62,7 +62,7 @@ const TeVasAMorirSection = () => {
       <div className="absolute inset-0 z-0">
         <Image
           src="/images/quien-soy.jpeg"
-          alt="Te Vas A Morir"
+          alt="Sebastian García - Trading"
           fill
           className="object-cover object-center"
         />
@@ -106,7 +106,7 @@ const TeVasAMorirSection = () => {
                 exit={{ y: -20, opacity: 0 }}
                 transition={{ duration: 0.5 }}
               >
-                ¿Qué carajo estás haciendo con tu vida <span className="text-tvam-blue">{words[currentWord]}</span>?
+                ¿Estás <span className="text-tvam-blue">{words[currentWord]}</span> o quieres seguir de mediocre?
               </motion.h2>
             </AnimatePresence>
           </motion.div>
@@ -116,8 +116,8 @@ const TeVasAMorirSection = () => {
             variants={fadeUp}
             custom={3}
           >
-            Soy <strong>Diego Dreyfus</strong> y no busco cambiar tu vida.<br />
-            Me dedico a crecer y si quieres usar mi proceso para inspirarte, qué chingón.
+            Soy <strong>Sebastian García</strong> y no busco cambiar tu vida.<br />
+            Me dedico a crecer y si quieres usar mi proceso para inspirarte, que chimba.
           </motion.p>
           {/* Botón */}
           <motion.div

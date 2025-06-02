@@ -4,8 +4,8 @@ import ClientBody from "./ClientBody";
 import { sfProDisplay } from "./fonts";
 
 export const metadata: Metadata = {
-  title: "Te Vas A Morir - Diego Dreyfus",
-  description: "Soy Diego Dreyfus y no estoy aquí para cambiar tu vida. Me dedico a crecer y si quieres usar mi proceso para inspirarte, qué chingón.",
+  title: "HUMBLE BEAST - Sebastian García",
+  description: "Una membresía diseñada para empujarte y crecer como trader y ser humano. Aquí no solo operamos, nos transformamos. Soy Sebastian García y me dedico a crecer.",
 };
 
 export default function RootLayout({

@@ -48,7 +48,7 @@ const HeroSection = () => {
       >
         <Image
           src="/images/quien-soy.jpeg"
-          alt="Diego Dreyfus"
+          alt="Sebastian García - Humble Beast"
           fill
           className="object-cover object-center"
           priority
@@ -62,7 +62,7 @@ const HeroSection = () => {
           variants={fadeUp}
           custom={1}
         >
-          AMORIR
+          HUMBLE BEAST
         </motion.h1>
 
         <div className="max-w-2xl">
@@ -71,18 +71,26 @@ const HeroSection = () => {
             variants={fadeUp}
             custom={2}
           >
-            Una membresía para empujarte y crecer en las 7 áreas, según yo, más importantes de la vida:
+            Una membresía diseñada para empujarte y crecer como trader y ser humano.
           </motion.p>
           <motion.p
-            className="text-lg mb-8"
+            className="text-lg mb-6"
             variants={fadeUp}
             custom={3}
           >
-            Cuerpo, Relaciones, Mente, Trabajo, Productividad, Legado y Dinero.
+            Aquí no solo operamos, nos transformamos.
+          </motion.p>
+          <motion.p
+            className="text-lg mb-8 text-tvam-blue font-semibold"
+            variants={fadeUp}
+            custom={4}
+          >
+            🔥 Entrena las 7 áreas clave de tu vida:<br />
+            Cuerpo. Mente. Relaciones. Trabajo. Productividad. Dinero. Legado.
           </motion.p>
           <motion.div
             variants={fadeUp}
-            custom={4}
+            custom={5}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >

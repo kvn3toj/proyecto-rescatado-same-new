@@ -59,14 +59,14 @@ const BioSection = () => {
               animate={isInView ? 'visible' : 'hidden'}
               custom={1}
             >
-              Put* el que no lea quién soy
+              Todavía Operando en DEMO?
             </motion.h2>
 
             <motion.ul className="space-y-6" variants={fadeUp} initial="hidden" animate={isInView ? 'visible' : 'hidden'}>
               <ListItem index={2}>Escribí lo de arriba solo para picar tu ego.</ListItem>
-              <ListItem index={3}>Porque no creo que tenga que hacer algo para que tú te sientas respetado. ¡Diviértete!</ListItem>
+              <ListItem index={3}>Porque no creo que tenga que hacer algo para que tú te sientas respetado. Diviértete!</ListItem>
               <ListItem index={4}>No me gusta describirme porque no creo en las etiquetas.</ListItem>
-              <ListItem index={5}>Me llaman Diego pero yo me llamo Huracán a memesmooo.</ListItem>
+              <ListItem index={5}>Me llamo Sebastian pero yo me llaman Nostradamus.</ListItem>
               <ListItem index={6}>Estoy aquí porque alguien cogió y llegué.</ListItem>
               <ListItem index={7}>Nunca descubrí quién soy. Lo decidí.</ListItem>
             </motion.ul>
@@ -82,7 +82,7 @@ const BioSection = () => {
               {/* Real image */}
               <Image
                 src="/images/quien-soy.jpeg"
-                alt="Diego Dreyfus"
+                alt="Sebastian García - Nostradamus"
                 fill
                 className="object-cover object-center rounded-lg"
               />
@@ -96,7 +96,7 @@ const BioSection = () => {
                 initial={{ y: 20 }}
                 whileHover={{ y: 0 }}
               >
-                <p className="text-lg italic font-medium text-white">"La vida no tiene sentido, le das tú el sentido."</p>
+                <p className="text-lg italic font-medium text-white">"El trading no es solo números, es transformación."</p>
               </motion.div>
             </div>
           </motion.div>
