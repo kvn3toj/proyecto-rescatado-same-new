@@ -64,7 +64,7 @@ const TeVasAMorirSection = () => {
           src="/images/quien-soy.jpeg"
           alt="Sebastian García - Trading"
           fill
-          className="object-cover object-center"
+          className="object-cover object-top"
         />
         <motion.div
           className="absolute inset-0 bg-gradient-to-b from-black via-black/70 to-black"

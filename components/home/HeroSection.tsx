@@ -50,7 +50,7 @@ const HeroSection = () => {
           src="/images/quien-soy.jpeg"
           alt="Sebastian García - Humble Beast"
           fill
-          className="object-cover object-center"
+          className="object-cover object-top"
           priority
         />
         <div className="absolute inset-0 bg-black bg-opacity-60"></div>

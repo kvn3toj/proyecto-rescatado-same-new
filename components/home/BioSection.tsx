@@ -84,7 +84,7 @@ const BioSection = () => {
                 src="/images/quien-soy.jpeg"
                 alt="Sebastian García - Nostradamus"
                 fill
-                className="object-cover object-center rounded-lg"
+                className="object-cover object-top rounded-lg"
               />
               
               {/* Overlay sutil */}
