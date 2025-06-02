@@ -1,5 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // Configuración para GitHub Pages
+  output: 'export',
+  trailingSlash: true,
+  basePath: process.env.NODE_ENV === 'production' ? '/proyecto-rescatado-same-new' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/proyecto-rescatado-same-new' : '',
+  
   images: {
     unoptimized: true,
     remotePatterns: [
