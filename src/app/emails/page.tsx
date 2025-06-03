@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Layout from '@/components/layout/Layout';
+import Layout from '@/src/components/layout/Layout';
 import EmailSubscribe from '@/components/ui/EmailSubscribe';
 
 export default function EmailsPage() {
