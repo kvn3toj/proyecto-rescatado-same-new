@@ -3,7 +3,7 @@
 import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
-import Layout from '@/src/components/layout/Layout';
+import Layout from '../../../components/layout/Layout';
 
 export default function SignOutPage() {
   const router = useRouter();

@@ -1,4 +1,4 @@
-import Layout from '@/src/components/layout/Layout';
+import Layout from '../../components/layout/Layout';
 import HeroSection from '@/components/home/HeroSection';
 import TeVasAMorirSection from '@/components/home/TeVasAMorirSection';
 import BioSection from '@/components/home/BioSection';

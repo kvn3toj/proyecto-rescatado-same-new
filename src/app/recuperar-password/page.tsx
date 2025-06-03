@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import Layout from '@/src/components/layout/Layout';
+import Layout from '../../../components/layout/Layout';
 
 export default function RecuperarPasswordPage() {
   const [email, setEmail] = useState('');
