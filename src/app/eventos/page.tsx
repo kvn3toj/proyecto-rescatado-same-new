@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Layout from '../../../components/layout/Layout';
-import Button from '@/components/ui/Button';
+import Button from '../../../components/ui/Button';
 
 export default function EventosPage() {
   return (

@@ -1,6 +1,6 @@
 import Layout from '../../../components/layout/Layout';
-import Button from '@/components/ui/Button';
-import AreaSection from '@/components/amorir/AreaSection';
+import Button from '../../../components/ui/Button';
+import AreaSection from '../../../components/amorir/AreaSection';
 
 export default function AMORirPage() {
   return (
