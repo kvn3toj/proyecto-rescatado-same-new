@@ -81,7 +81,7 @@ const BioSection = () => {
             <div className="relative w-full h-[400px] md:h-[500px] group">
               {/* Real image */}
               <Image
-                src="/images/quien-soy.jpeg"
+                src="/images/mente.jpg"
                 alt="Sebastian García - Nostradamus"
                 fill
                 className="object-cover object-top rounded-lg"
